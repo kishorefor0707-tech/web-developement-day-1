@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Report Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 70%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .student-info {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: right;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Report Card</h2>
+
+    <div class="student-info">
+        <p><strong>Name:</strong> Saran</p>
+        <p><strong>Roll No:</strong> 101</p>
+        <p><strong>Class:</strong> III B.Sc CS</p>
+    </div>
+
+    <table>
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td>95</td>
+            <td>A+</td>
+        </tr>
+        <tr>
+            <td>Science</td>
+            <td>88</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>92</td>
+            <td>A+</td>
+        </tr>
+        <tr>
+            <td>History</td>
+            <td>85</td>
+            <td>B+</td>
+        </tr>
+        <tr>
+            <td>Computer Science</td>
+            <td>98</td>
+            <td>A+</td>
+        </tr>
+    </table>
+
+    <div class="footer">
+        Total: 458 / 500<br>
+        Percentage: 91.6%
+    </div>
+</div>
+
+</body>
+</html>

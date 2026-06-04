@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saran - Resume</title>
+    <style>
+        /* Modern Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .resume-container {
+            max-width: 800px;
+            background: #ffffff;
+            margin: 0 auto;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.05);
+        }
+        
+        /* Header Section */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0 0 10px 0;
+            font-size: 36px;
+            color: #222;
+            letter-spacing: 0.5px;
+        }
+        .tagline {
+            font-size: 18px;
+            color: #007bff;
+            margin: 0 0 15px 0;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .contact-links {
+            font-size: 15px;
+            color: #666;
+        }
+        .contact-links a, .contact-links span {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0 10px;
+        }
+        .contact-links a:hover {
+            color: #007bff;
+        }
+
+        /* Section Layouts */
+        section {
+            margin-bottom: 35px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #222;
+            border-left: 4px solid #007bff;
+            padding-left: 12px;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Experience & Education Items */
+        .item {
+            margin-bottom: 20px;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+        .job-title, .degree {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+        .company, .school {
+            font-size: 15px;
+            color: #666;
+            font-style: italic;
+        }
+        .date {
+            font-size: 14px;
+            color: #888;
+        }
+        ul {
+            margin: 5px 0 0 20px;
+            padding: 0;
+            color: #555;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+
+        /* Skills Badges */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-badge {
+            background-color: #e9ecef;
+            color: #495057;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* Print Optimization */
+        @media print {
+            body { background-color: #fff; padding: 0; }
+            .resume-container { box-shadow: none; padding: 0; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        
+        <!-- Header Section -->
+        <header>
+            <h1>SARAN</h1>
+            <div class="tagline">Professional Title / Field of Expertise</div>
+            <div class="contact-links">
+                Email: <a href="mailto:saran07@gmail.com">saran07@gmail.com</a> | 
+                Phone: <a href="tel:987654321">987654321</a> | 
+                <span>Coimbatore, Tamil Nadu, India</span>
+            </div>
+        </header>
+
+        <!-- Professional Summary -->
+        <section>
+            <h2>Professional Summary</h2>
+            <p>
+                A dedicated and detail-oriented professional based in Coimbatore with a strong foundation in my field. Proven ability to learn quickly, adapt to evolving environments, and effectively collaborate with cross-functional teams to achieve organizational targets. Eager to leverage my communication skills and technical abilities to bring value to a dynamic team.
+            </p>
+        </section>
+
+        <!-- Core Skills Section -->
+        <section>
+            <h2>Skills & Expertise</h2>
+            <div class="skills-container">
+                <span class="skill-badge">Project Management</span>
+                <span class="skill-badge">Effective Communication</span>
+                <span class="skill-badge">Problem Solving</span>
+                <span class="skill-badge">HTML / CSS (Basic)</span>
+                <span class="skill-badge">Team Collaboration</span>
+                <span class="skill-badge">Time Management</span>
+            </div>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section>
+            <h2>Work Experience</h2>
+            
+            <!-- Job 1 -->
+            <div class="item">
+                <div class="item-header">
+                    <span class="job-title">Your Job Title</span>
+                    <span class="date">Month 20XX -- Present</span>
+                </div>
+                <div class="company">Company Name, Coimbatore</div>
+                <ul>
+                    <li>Led daily tasks and coordinated with team members to deliver projects on schedule.</li>
+                    <li>Identified operational bottlenecks and implemented workflow solutions that boosted efficiency.</li>
+                    <li>Maintained excellent communication channels between stakeholders and project teams.</li>
+                </ul>
+            </div>
+
+            <!-- Job 2 -->
+            <div class="item">
+                <div class="item-header">
+                    <span class="job-title">Previous Job Title</span>
+                    <span class="date">Month 20XX -- Month 20XX</span>
+                </div>
+                <div class="company">Previous Company Name, Location</div>
+                <ul>
+                    <li>Assisted in managing day-to-day operations and reporting metrics to management.</li>
+                    <li>Resolved client issues efficiently, resulting in increased customer satisfaction ratings.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section>
+            <h2>Education</h2>
+            <div class="item">
+                <div class="item-header">
+                    <span class="degree">Your Degree / Certification</span>
+                    <span class="date">Graduation Year</span>
+                </div>
+                <div class="school">University or School Name, Coimbatore</div>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+</html>
